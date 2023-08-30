@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="PreetiKC_2357808.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&family=Roboto+Condensed&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" id="cityInput" placeholder="Enter city name" spellcheck="false">
+            <button id="searchButton"> <img src="images/search.png"></button>
+        </div>
+        <div class="error">
+            <p>No city found!</p>
+        </div>
+        <div class="weather">
+        <img src="images/rain.png" class="weather-icon">
+            <p class="weath"></p>
+            <h1 class="temp">22°C</h1>
+            <h2 class="city">Gadsden</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="images/humidity.png">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="images/wind.png">
+                    <div>
+                        <p class="wind">15 km/h</p>
+                        <p>Wind Speed</p>
+                    </div>
+                    
+                </div>
+            </div>
+            <a href="backup.php">Click to get previous data!</a>
+        </div>
+    </div>
+
+    <script src="PreetiKC_2357808.js"></script>
+</body>
+</html>
+
